@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alunos\\Desktop\\AtividadeReservat-rio\\AtividadeReservat-rio.csproj": {}
+    "C:\\Users\\Alunos\\Desktop\\AtividadeReservatorio\\AtividadeReservat-rio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alunos\\Desktop\\AtividadeReservat-rio\\AtividadeReservat-rio.csproj": {
+    "C:\\Users\\Alunos\\Desktop\\AtividadeReservatorio\\AtividadeReservat-rio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alunos\\Desktop\\AtividadeReservat-rio\\AtividadeReservat-rio.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\Desktop\\AtividadeReservatorio\\AtividadeReservat-rio.csproj",
         "projectName": "AtividadeReservat-rio",
-        "projectPath": "C:\\Users\\Alunos\\Desktop\\AtividadeReservat-rio\\AtividadeReservat-rio.csproj",
+        "projectPath": "C:\\Users\\Alunos\\Desktop\\AtividadeReservatorio\\AtividadeReservat-rio.csproj",
         "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alunos\\Desktop\\AtividadeReservat-rio\\obj\\",
+        "outputPath": "C:\\Users\\Alunos\\Desktop\\AtividadeReservatorio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"

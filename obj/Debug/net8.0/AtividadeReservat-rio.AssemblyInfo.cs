@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AtividadeReservat-rio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11cf110a2b620a36087406a3e0a25d448dc54e36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+269bd5a6a00d83e6bbc3a1f2cfa4cd9600a2017f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AtividadeReservat-rio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AtividadeReservat-rio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

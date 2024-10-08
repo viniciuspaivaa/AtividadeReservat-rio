@@ -7,20 +7,20 @@
         bool erro = false;
         int reserva = 0;
         int minReserva = 20;
-        int maxReserva = 100;
+        int maxReserva = 102;
         int caixa = 0;
         int maxCaixa = 30;
-        string resolucao = "";
+        string resolucao;
 
   
         while(!erro)
-        {
+        {   
             //Reservatório vazio
             if(reserva <= minReserva && caixa < maxCaixa)
             {
                 bomba = false;
                 torneira = true;
-                reserva += 4;
+                reserva += 6;
                 resolucao = "nenhuma";
             }
             //Reservatório ideal, caixa vazia
@@ -28,7 +28,7 @@
             {
                 bomba = true;
                 torneira = true;
-                reserva += 2;
+                reserva += 4;
                 caixa += 2;
                 resolucao = "A";
             }
@@ -37,7 +37,7 @@
             {
                 bomba = false;
                 torneira = true;
-                reserva += 4;
+                reserva += 6;
                 resolucao = "A e C";
             }
             //Reservatório cheio, caixa vazia
@@ -71,25 +71,11 @@
             {
                 Console.Write("Erro no sitema, chame um técnico!");
             }
-            else if(caixa == maxCaixa)
-            {
-                Console.WriteLine($"Caixa d'água: {caixa}/30\nReservatório: {reserva}/100\n\nBomba: {onOffBomb}\nTorneira: {onOffTorn}\nBóias ativadas: {resolucao}");
-                Console.Write("Esvaziando a caixa d'água...");
-                caixa = 0;
-                Thread.Sleep(4000);
-            }
             else
             {
-                Console.Write($"Caixa d'água: {caixa}/30\nReservatório: {reserva}/100\n\nBomba: {onOffBomb}\nTorneira: {onOffTorn}\nBóias ativadas: {resolucao}");
+                Console.Write($"Caixa d'água: {caixa}/{maxCaixa}\nReservatório: {reserva}/{maxReserva}\n\nBomba: {onOffBomb}\nTorneira: {onOffTorn}\nBóias ativadas: {resolucao}");
             }
-            var key = Console.ReadKey(true);
-            
-            // Verifica se a tecla pressionada foi Enter
-            if (key.Key == ConsoleKey.Enter)
-            {
-                continue; // Continua o loop
-            }
-            //Thread.Sleep(3000);
+            Thread.Sleep(1000);
         }
     }
 }
